@@ -1,0 +1,10 @@
+Randomizer Version: 1720
+ROM: Fire Red (U) 1.0 (ROM Hack)
+Code: BPRE
+Reported Support Level: No Static Pokemon
+
+java.lang.ArrayIndexOutOfBoundsException: 62593
+	at com.dabomstew.pkrandom.romhandlers.Gen3RomHandler.getTrainers(Gen3RomHandler.java:1378)
+	at com.dabomstew.pkrandom.romhandlers.AbstractRomHandler.randomizeTrainerPokes(AbstractRomHandler.java:915)
+	at com.dabomstew.pkrandom.Randomizer.randomize(Randomizer.java:292)
+	at com.dabomstew.pkrandom.gui.RandomizerGUI$3.run(RandomizerGUI.java:1957)
